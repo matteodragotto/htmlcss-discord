@@ -9,7 +9,7 @@ body{
 }
 
 .debug{
-  border: 1px dashed white;
+  border: 1px dashed black;
 
 }
 
@@ -141,12 +141,12 @@ header .jumbotron ul li a{
 
 /*-----------------Main--------------------*/
 .w40{
-  width: 20%;
-  display: block;
+  width: 15%;
 }
 
 .w60{
-  width: 60%;
+  width: 678px;
+  display: block;
 }
 
 main .container{
@@ -181,9 +181,10 @@ main .row .col{
 .tecnology .container{
   width: 80%;
   height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
-
 
 main h2{
   font-size: 34px;
@@ -210,6 +211,12 @@ main .cta a{
 
 main .cta h2{
   margin-top: 20px;
+}
+
+main .tecnology .img{
+  width: 1100px;
+  height: 530px;
+  
 }
 
 .bg-blue{
