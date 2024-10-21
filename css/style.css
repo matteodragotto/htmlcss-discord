@@ -9,8 +9,7 @@ body{
 }
 
 .debug{
-  background-color: rgba(127, 255, 212, 0.2);
-  border: 1px dashed black;
+  border: 1px dashed white;
 
 }
 
@@ -166,10 +165,23 @@ main .row .col{
 
 .tecnology{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.tecnology.container{
+.tecnology .container{
+  width: 80%;
+  height: 900px;
   text-align: center;
+}
+
+.tecnology .container .title{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -183,15 +195,31 @@ main p{
   color: #232826;
 }
 
+main .cta{
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 50%;
+  margin-top: 60px;
+}
+
 main .cta a{
   text-decoration: none;
   color: white;
+}
+
+main .cta h2{
+  margin-top: 20px;
 }
 
 .bg-blue{
   background-color: #8EA2E0;
 }
 /*-------------------------Footer---------------------------*/
+
+footer{
+  background-color: #23272A;
+}
 
 footer .container{
   height: 665px;
@@ -202,7 +230,7 @@ footer .container{
 }
 
 .w30{
-  width: 30%;
+  width: 25%;
 }
 
 footer .container .row{
@@ -224,7 +252,8 @@ footer .container .last-row{
 
 footer .container .row .col{
   height: 100%;
-  text-align: center;
+  text-align: left;
+  padding: 50px;
 }
 
 
@@ -233,11 +262,40 @@ footer .container .row .col-end{
   text-align: center;
 }
 
+footer h3{
+  font-size: 30px;
+  color: #8EA2E0;
+}
+
+footer h4{
+  color: #8EA2E0;
+}
+
 footer nav ul{
   list-style: none;
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
+
+footer nav ul li{
+  padding: 10px;
+}
+
+footer .container .row .col i{
+  padding: 20px 10px;
+  color: #FFFFFF;
+}
+
+footer nav ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.txt-white{
+  color: white;
+}
+
 
 
 
