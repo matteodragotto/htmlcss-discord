@@ -15,17 +15,13 @@ body{
 }
 
 header{
-  height: 624px;
+  height: 625px;
   background-color: rgb(49, 96, 224);
 }
 
 .container{
   margin: 0 auto;
   max-width: 100%;
-}
-
-header .container{
-  height: 100%;
 }
 
 header .navbar{
@@ -40,7 +36,6 @@ header .jumbotron{
 
 .row{
   display: flex;
-  flex-wrap: wrap;
 }
 
 header .row{
@@ -84,31 +79,38 @@ header .jumbotron .row{
 }
 
 .w60{
-  width: 50%;
+  width: 60%;
 }
 
 main .container{
-  width: 70%;
-  height: 600px;
+  height: 700px;
 }
 
 .top, .bottom{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .container .row{
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;
-  padding: 50px;
+  width: 80%;
+ 
 }
 
 main .row .col{
-  min-height: 90%;
-  text-align: center;
+  display: block;
   font-size: 20px;
-  padding: 40px;
+}
+
+main h2{
+  font-size: 34px;
+}
+
+main p{
+  font-size: 18px;
 }
 
 .bg-grey{
@@ -122,7 +124,6 @@ main .row .col{
 /*-------------------------Footer---------------------------*/
 
 footer .container{
-  width: 70%;
   height: 665px;
 }
 
